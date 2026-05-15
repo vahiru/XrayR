@@ -184,7 +184,7 @@ func (c *APIClient) GetUserList() (*[]api.UserInfo, error) {
 
 func (c *APIClient) ReportNodeStatus(nodeStatus *api.NodeStatus) error {
 	payload := c.nodeStatusPayload(nodeStatus)
-	c.sendWS("node.status", payload)
+	c.sendWS("node.status", c.nodeStatusWSPayload(payload))
 	return c.postReport(payload)
 }
 

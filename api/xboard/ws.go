@@ -213,7 +213,7 @@ func (c *APIClient) sendLastStatus() {
 	status := cloneAnyMap(c.lastStatus)
 	c.wsMu.RUnlock()
 	if len(status) > 0 {
-		c.sendWS("node.status", status)
+		c.sendWS("node.status", c.nodeStatusWSPayload(status))
 	}
 }
 
@@ -276,6 +276,14 @@ func (c *APIClient) deviceReportPayload(devices map[int][]string) interface{} {
 		}
 	}
 	return devices
+}
+
+func (c *APIClient) nodeStatusWSPayload(status map[string]interface{}) map[string]interface{} {
+	payload := cloneAnyMap(status)
+	if c.MachineID > 0 && c.NodeID > 0 {
+		payload["node_id"] = c.NodeID
+	}
+	return payload
 }
 
 func cloneDeviceMap(src map[int][]string) map[int][]string {
