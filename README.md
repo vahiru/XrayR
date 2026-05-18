@@ -2,14 +2,14 @@
 
 [![](https://img.shields.io/badge/TgChat-@XrayR讨论-blue.svg)](https://t.me/XrayR_project)
 [![](https://img.shields.io/badge/Channel-@XrayR通知-blue.svg)](https://t.me/XrayR_channel)
-![](https://img.shields.io/github/stars/vahiru/XrayR)
-![](https://img.shields.io/github/forks/vahiru/XrayR)
-![](https://github.com/vahiru/XrayR/actions/workflows/release.yml/badge.svg)
-![](https://github.com/vahiru/XrayR/actions/workflows/docker.yml/badge.svg)
-[![Github All Releases](https://img.shields.io/github/downloads/vahiru/XrayR/total.svg)]()
+![](https://img.shields.io/github/stars/modusnyan/XrayR)
+![](https://img.shields.io/github/forks/modusnyan/XrayR)
+![](https://github.com/modusnyan/XrayR/actions/workflows/release.yml/badge.svg)
+![](https://github.com/modusnyan/XrayR/actions/workflows/docker.yml/badge.svg)
+[![Github All Releases](https://img.shields.io/github/downloads/modusnyan/XrayR/total.svg)]()
 
 
-[English](https://github.com/vahiru/XrayR/blob/master/README-en.md)|[Iranian](https://github.com/vahiru/XrayR/blob/master/README_Fa.md)|[Vietnamese](https://github.com/vahiru/XrayR/blob/master/README-vi.md)
+[English](https://github.com/modusnyan/XrayR/blob/master/README-en.md)|[Iranian](https://github.com/modusnyan/XrayR/blob/master/README_Fa.md)|[Vietnamese](https://github.com/modusnyan/XrayR/blob/master/README-vi.md)
 
 A Xray backend framework that can easily support many panels.
 
@@ -17,7 +17,7 @@ A Xray backend framework that can easily support many panels.
 
 如果您喜欢本项目，可以右上角点个star+watch，持续关注本项目的进展。
 
-使用教程：[详细使用教程](https://github.com/vahiru/XrayR)
+使用教程：[详细使用教程](https://github.com/modusnyan/XrayR)
 
 
 ## 免责声明
@@ -71,20 +71,20 @@ A Xray backend framework that can easily support many panels.
 ### 一键安装
 
 ```
-wget -N https://raw.githubusercontent.com/vahiru/XrayR-release/master/install.sh && bash install.sh
+wget -N https://raw.githubusercontent.com/modusnyan/XrayR-release/master/install.sh && bash install.sh
 ```
 
 ### 使用Docker部署软件
 
-[Docker部署教程](https://github.com/vahiru/XrayR-release#docker-%E5%AE%89%E8%A3%85)
+[Docker部署教程](https://github.com/modusnyan/XrayR-release#docker-%E5%AE%89%E8%A3%85)
 
 ### 手动安装
 
-[手动安装教程](https://github.com/vahiru/XrayR-release)
+[手动安装教程](https://github.com/modusnyan/XrayR-release)
 
 ## 配置文件及详细使用教程
 
-[详细使用教程](https://github.com/vahiru/XrayR)
+[详细使用教程](https://github.com/modusnyan/XrayR)
 
 ## Thanks
 
@@ -95,7 +95,7 @@ wget -N https://raw.githubusercontent.com/vahiru/XrayR-release/master/install.sh
 
 ## Licence
 
-[Mozilla Public License Version 2.0](https://github.com/vahiru/XrayR/blob/master/LICENSE)
+[Mozilla Public License Version 2.0](https://github.com/modusnyan/XrayR/blob/master/LICENSE)
 
 ## Telgram
 
@@ -105,5 +105,5 @@ wget -N https://raw.githubusercontent.com/vahiru/XrayR-release/master/install.sh
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/vahiru/XrayR.svg)](https://starchart.cc/vahiru/XrayR)
+[![Stargazers over time](https://starchart.cc/modusnyan/XrayR.svg)](https://starchart.cc/modusnyan/XrayR)
 
