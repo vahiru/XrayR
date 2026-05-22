@@ -1,3 +1,4 @@
+### 因我个人习惯使用XrayR，我会继续维护此项目。但不保证更新频率。如您在使用过程中出现任何问题，请联系 ModusNyan@gmail.com 我会尽力修复
 # XrayR
 
 [![](https://img.shields.io/badge/TgChat-@XrayR讨论-blue.svg)](https://t.me/XrayR_project)
